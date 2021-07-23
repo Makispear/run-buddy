@@ -22,7 +22,7 @@ header {
 header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
-  font-size: 22px;
+  font-size: 1.55vw;
 }
 
 header h1 {
@@ -40,30 +40,16 @@ header nav {
   margin: 7px 0;
 }
 
-header nav ul li {
+/* header nav ul li {
   display: inline;
-}
+} */
 
-footer {
-  background: #fce138;
-  width: 100%;
-  padding: 40px 35px;
-}
-
-footer h2 {
-  display: inline;
-  color: #024e76;
-  font-size: 30px;
-}
-
-footer div {
-  float: right;
-  line-height: 1.5;
-  text-align: right;
-}
-
-footer a {
-  color: #024e76;
+header nav ul {
+  display: flex;
+  flex-wrap: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
 section {
@@ -289,9 +275,30 @@ section {
   line-height: 1.5;
 }
 
-
 .reach-out address a {
   color: #fce138;
   margin: 20px auto 20px auto;
   font-style: normal;
+}
+
+footer {
+  background: #fce138;
+  width: 100%;
+  padding: 40px 35px;
+}
+
+footer h2 {
+  display: inline;
+  color: #024e76;
+  font-size: 30px;
+}
+
+footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+}
+
+footer a {
+  color: #024e76;
 }
