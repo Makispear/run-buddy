@@ -53,12 +53,12 @@ section {
 }
 /* hero section  */
 .hero {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-  background-image: url("../images/hero-bg.jpg");
-  background-size: cover;
-  background-position: center;
+background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .hero-cta {
@@ -207,7 +207,7 @@ section {
 
 .steps p {
   color: #39a6b2;
-  font-size: 23px;
+  font-size: 18px;
 }
 /* meet the trainers section  */
 .trainer {
@@ -371,12 +371,12 @@ section {
 }
 /* Footer section  */
 footer {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
   background: #fce138;
-  width: 100%;
   padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 footer h2 {
@@ -386,7 +386,7 @@ footer h2 {
 
 footer div {
   line-height: 1.5;
-  text-align: right;
+  text-align: center;
 }
 
 footer a {
