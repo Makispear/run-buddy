@@ -258,7 +258,14 @@ section {
 .reach-out {
   background-color: #024e76;
   text-align: center;
+}
 
+.reach-out-container {
+  background-color: #fce138;
+}
+
+.contact-info iframe {
+  height: 400px;
 }
 
 .section-title-2 {
@@ -269,17 +276,67 @@ section {
   display: inline-block;
   border-bottom: 3px solid;
   border-color: #39a6b2;
+  width: 50%;
 }
 
-.reach-out-container {
-  background-color: #fce138;
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: left;
 }
 
-.contact-info iframe {
-  width: 400px;
-  height: 400px;
+.contact-info > * {
+  flex: 1;
+  margin: 15px;
 }
 
+.contact-form input, .contact-form textarea {
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.contact-form button {
+  width: 100%;
+  border: none;
+  background: #fce138;
+  color: #024e76;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
+}
+
+.contact {
+  text-align: center;
+  background: #024e76;
+}
+
+.contact-info div {
+  color: white;
+}
+
+
+.contact-info h3 {
+  color: #fce138;
+  font-size: 32px;
+} 
+
+.contact-info p, .contact-info address {
+  margin: 20px 0px;
+  line-height: 1.5;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.contact-info a {
+  color: #fce138;
+}
 .reach-out h2 {
   display: block;
 }
